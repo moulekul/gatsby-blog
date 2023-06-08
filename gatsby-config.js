@@ -8,6 +8,10 @@
  * @type {import('gatsby').GatsbyConfig}
  */
 module.exports = {
+  siteMetadata: {
+      title: 'Gatsby Blog',
+      author: 'Luke Moule'
+  },
   plugins: [
     'gatsby-plugin-sass'
   ]
