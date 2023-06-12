@@ -7,10 +7,21 @@ const AboutPage = () => {
     return (
         <div>
             <Layout>
-            <h1>About Me</h1>
-            <p>I’m just a dude who decided to make a website to document his life.
-               I’m not all that special, successful, interesting, or brilliant, though others would say otherwise.</p>
-            <p><Link to="/contact">Want to work with me? Reach out.</Link></p>
+            <h1>About</h1>
+            <h2>The Website</h2>
+            <p>
+                This is a straightforward blog website built using Gatsby static site generator. It is powered by
+                Contentful CMS and hosted for free on Netlify.
+            </p>
+            <h2>The Intention</h2>
+            <p>
+                This specific project has enabled me to develop skills that can add real value to any potential employers. 
+                Learning Gatsby has given me the ability to rapidly generate static websites with excellent SEO. Furthermore,
+                both Contenful and Netlify offer free initial services to clients, eliminating CMS and hosting fees.
+                This approach to website development is evidently more cost effective than more popular alternatives
+                such as WordPress. Therefore, proficiency with these platforms should be deemed invaluable.
+            </p>
+            <p>Like what you've seen? Be sure to <Link to="/contact">reach out</Link>. I'm available for work.</p>
             </Layout>
         </div>
     )

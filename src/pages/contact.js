@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'gatsby'
 
 import Layout from '../components/layout'
 
@@ -7,8 +8,15 @@ const ContactPage = () => {
         <div>
             <Layout>
             <h1>Contact</h1>
+            <p>   
+                If you're a fan of social media, you can find me
+                on <Link to="https://www.linkedin.com/in/lukemoule/" target="_blank">LinkedIn</Link>, among the 
+                sea of other professionals.
+            </p>
             <p>
-                The best way to reach me is via <a href="https://www.linkedin.com/in/lukemoule/">LinkedIn.</a>
+                Alternatively, you can reach me via <Link to="mailto:lukemoule20@gmail.com">e-mail</Link>.
+                Kind, thoughtful messages are encouraged and appreciated. Seriously — go for it! I will read your
+                message and likely respond. I still find it quaint to connect with people through email.
             </p>
             </Layout>
         </div>
