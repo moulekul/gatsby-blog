@@ -13,6 +13,13 @@ module.exports = {
       author: 'Luke Moule'
   },
   plugins: [
+    {
+      resolve: 'gatsby-source-contentful',
+      options: {
+        spaceId: '',
+        accessToken: ''
+      }
+    },
     'gatsby-plugin-sass',
     {
       resolve: 'gatsby-source-filesystem',
