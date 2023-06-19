@@ -2,11 +2,13 @@ import React from 'react'
 import { Link } from 'gatsby'
 
 import Layout from '../components/layout'
+import Head from '../components/head' 
 
 const AboutPage = () => {
     return (
         <div>
             <Layout>
+                <Head title="About" />
             <h1>About</h1>
             <h2>The Website</h2>
             <p>
@@ -19,7 +21,7 @@ const AboutPage = () => {
                 Learning Gatsby has given me the ability to rapidly generate static websites with excellent SEO. Furthermore,
                 both Contenful and Netlify offer free initial services to clients, eliminating CMS and hosting fees.
                 This approach to website development is evidently more cost effective than more popular alternatives
-                such as WordPress. Therefore, proficiency with these platforms should be deemed invaluable.
+                such as WordPress. As a result, I personally view proficiency with these platforms to be invaluable.
             </p>
             <p>Like what you've seen? Be sure to <Link to="/contact">reach out</Link>. I'm available for work.</p>
             </Layout>
