@@ -9,7 +9,7 @@
  */
 module.exports = {
   siteMetadata: {
-      title: "lukemoule",
+      title: "MyBlog",
       author: 'Luke Moule'
   },
   plugins: [
